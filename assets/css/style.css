@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: "Overpass", serif;
+    color: white;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url(/assets/img/esd-simple-background.png);
+  position: relative;
+}
+
+nav {
+  display: flex;
+   width: 100%;
+   height: 10em;
+   position: absolute;
+   top: 0em;
+   left: 2em;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10em;
+}
+
+.first-container, .second-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#oreo-logo {
+  padding-top: 2em;
+  cursor: pointer;
+}
+
+#oreo-count-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  gap: .5em;
+  height: 2em;
+  width: 6em;
+  background-color: lawngreen;
+  border-radius: 1em;
+}
+
+.oreo-per-clicks-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 70px;
+  width: 150px;
+  background-color: #00308F;
+  border: 1px solid aqua; 
+  border-radius: .2em;
+}
+
+#oreo-number {
+  font-weight: bold;
+}
+
+#oreos-content {
+  color: aqua;
+  font-weight: 100; 
+  font-size: smaller;
+}
+
+.increase-oreos-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2em;
+}
+
+.oreo-counting-button {
+  background-color: #00BFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5em;
+  width: 7em;
+  border-radius: .3em;
+  border: none;
+  margin-top: 1em;
+  gap: .4em;
+  font-weight: bold;
+  box-shadow: 3px 3px #1877F2;
+  cursor: pointer;
+}
+
+
+.upgrade-container {
+   background-color: whitesmoke;
+   height: 350px; 
+   width: 500px;
+   opacity: .9;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border-radius: .3em;
+}
+
+h2 {
+  color: #00308F; 
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1em 2em;
+  font-size: 1.3em;
+}
+
+.first-item, .second-item, .third-item {
+  height: 10em;
+  width: 90%;
+  background-color: #00308F;
+  border-radius: .3em;
+  margin-bottom: 1em;
+  padding: 1em;
+  position: relative;
+}
+
+.upgrade-item {
+  text-transform: uppercase;
+  color: white;
+  opacity: 0.6;
+  font-weight: 200;
+  font-size: .7em;
+}
+
+.buying-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5em;
+  width: 8em;
+  background-color: #FFA500;
+  box-shadow: 3px 3px #FF8C00	;
+  position: absolute;
+  top: 1em;
+  right: 2em;
+  border: none;
+  border-radius: .3em;
+  font-weight: bold;
+  cursor: pointer;
+  gap: .5em;
+}
+

@@ -85,7 +85,7 @@ function firstUpgrade() {
         goldOreo = true;
         numberOfOreo -= 1000;
         oreoCounting.innerHTML = numberOfOreo;
-        oreoLogo.src = "assets/img/esd-oreo-golden.png";
+        oreoLogo.src = "assets/images/esd-oreo-golden.png";
         firstButton.innerHTML = "ACHETÉ";
         firstButton.style.background = '#0066b2';
         firstButton.style.boxShadow = "none";

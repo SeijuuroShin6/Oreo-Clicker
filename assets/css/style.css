@@ -26,7 +26,7 @@ header {
   justify-content: center;
   align-items: center;
   gap: 10em;
-  background-image: url("./assets/images/esd-simple-background.png");
+  background-image: url("../assets/images/esd-simple-background.png");
   background-position: center;
   background-size: cover;
 }

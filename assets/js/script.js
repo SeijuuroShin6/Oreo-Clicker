@@ -99,7 +99,7 @@ function secondUpgrade() {
         goldBackground = true;
         numberOfOreo -= 2500;
         oreoCounting.innerHTML = numberOfOreo;
-        bodyBackground.style.backgroundImage = "url('assets/img/esd-golden-background.jpg')";
+        bodyBackground.style.backgroundImage = "url('assets/images/esd-golden-background.jpg')";
         secondButton.innerHTML = "ACHETÉ";
         secondButton.style.background = '#0066b2';
         secondButton.style.boxShadow = "none";
